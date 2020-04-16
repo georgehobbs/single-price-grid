@@ -1,0 +1,156 @@
+body {
+  font-family: 'Karla', sans-serif;
+}
+
+/* CONTAINER */
+.container-fluid {
+  background-color: hsl(204, 43%, 93%);
+}
+
+/* MAIN CONTENT */
+.main-content {
+  margin: auto;
+  width: 45%;
+  padding: 200px 0;
+}
+
+.row {
+  box-shadow: 0 5px 30px #d3dbe3;
+}
+
+/* TOP-SECTION */
+.top-section {
+  background-color: white;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  border-radius: 5px 5px 0 0;
+}
+
+h1 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #4cb3b1;
+  padding: 30px 0 10px;
+}
+
+h2 {
+  color: #bedf31;
+  font-size: 0.9rem;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+
+.top-section-text {
+  color: #b7bdc2;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+/* SECOND-SECTION */
+.second-section {
+  background-color: #4cb3b1;
+  padding-left: 30px;
+  padding-right: 40px;
+  color: white;
+  border-bottom-left-radius: 5px;
+}
+
+h4 {
+  font-size: 1rem;
+  padding-top: 35px;
+  padding-bottom: 5px;
+}
+
+span {
+  font-size: 1.75rem;
+  color: white;
+  margin-right: 10px;
+}
+
+.faded {
+  color: #67d1d0;
+  font-size: 0.85rem;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+}
+
+.full-access {
+  font-size: 0.85rem;
+  color: #a2eff3;
+  margin-bottom: 25px;
+}
+
+.sign-up-button {
+  background-color: #bedf31;
+  margin: 20px 0 30px;
+  border-radius: 2%;
+  border: none;
+  font-size: 0.85rem;
+  padding: 5%;
+  box-shadow: 0 1px 3px #808080;
+}
+
+.sign-up-button:hover {
+  background-color: white;
+  color: #bedf31;
+}
+
+/* THIRD-SECTION */
+.third-section {
+  background-color: #51bebd;
+  padding-left: 30px;
+  color: white;
+  border-bottom-right-radius: 5px;
+}
+
+ul {
+  padding-left: 0;
+  line-height: 0.2;
+  margin-top: 20px;
+}
+
+li {
+  list-style-type: none;
+  font-size: 0.75rem;
+  color: #a2eff3;
+}
+
+/* FOOTER */
+.attribution {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 800px) {
+  h4 {
+    padding-top: 20px;
+  }
+
+  .main-content {
+    width: 80%;
+    padding: 50px 0;
+  }
+
+  .top-section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .second-section {
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom-left-radius: 0%;
+  }
+
+  .third-section {
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom-left-radius: 5px;
+  }
+
+  ul {
+    margin-bottom: 35px;
+  }
+}
